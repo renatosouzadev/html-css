@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em Html 5</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente mudar o tamanho da aba do navegador.</p>
+
+    <picture>
+        <source media="(min-width: )" srcset="" type="image/">
+        <source media="(max-width: 750px )" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="">
+    </picture>
+    <hr>
+    <h1>Reproduzindo aúdios</h1>
+    <audio src="midia/o-rappa-suplica-cearence.mp3" controls>o-rappa-suplica-cearence</audio><br>
+    <hr>
+    <h1>Reproduzindo videos com hospedagem propria.</h1>
+    <video controls width="550" poster="midia/tbr576x1024.jpg">
+        <source src="midia/pexels-nataliya-vaitkevich-6757681.mp4" type="video/pm4">
+        <source src="midia/Pexels-Nataliya-Vaitkevich-6757681.webm" type="video/webm">
+        <source src="midia/Pexels-Nataliya-Vaitkevich-6757681.mkv" type="video/mkv">
+        <p>O seu Navegador não suporta os arquivos de video <a download="midia/pexels-nataliya-vaitkevich-6757681.mp4" href="midia/pexels-nataliya-vaitkevich-6757681.mp4">Clique aqui para baixar</a></p>
+    </video>
+    <hr>
+    <h1>Videos hospedados externamente.</h1>
+    <h2>youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <style>
+        body{
+            background-color: rgb(54, 54, 54);
+            color: rgb(236, 236, 236);
+            font: 13pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <hr>
+    <h2>Negrito</h2>
+    <p>tag <strong>STRONG</strong></p><br>
+    <h2>Itálico</h2>
+    <p>tag <em>EM</em></p><br>
+    <h2>Texto marcado</h2>
+    <p>tag <mark style="background-color: rgb(180, 180, 180); color: black;">MARK</mark></mark></p><br>
+    <h2>Texto inserido/sublinhado</h2>
+    <p>tag <ins>INS</ins></p><br>
+    <h2>Texto subscrito</h2>
+    <p>tag <sub>SUB</sub></p>
+    <h2>Texto sobrescrito</h2>
+    <p>tag <sup>SUP</sup></p><br>
+    <h2>Códigos</h2>
+    <p>tag CODE ex:</p>
+    <pre><code>
+        function VerTabuada(){
+            var multiplicado = Number(document.getElementById('num').value)
+            for(var i = 1; i <= 10; i++){
+                document.getElementById(i).innerHTML = `${multiplicado} x ${i} = ${multiplicado*i}`
+            }}
+    </code></pre>
+    <p>como diria o pai de um amigo: <q>O computador é um burro muito rapido!</q></p>
+</body>
+</html>

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+*{
+  font: normal 400 1em arial,sans-serif;
+  padding: 0;
+}
+body{
+  background-image: linear-gradient(to left, #57879C, #7BBEDB);
+}
+main{
+  background-color: #fff;
+  width: 400px;
+  margin-inline: auto;
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 20px;
+}
+h1{
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+h2{
+  font-weight: 400;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+label{
+  font-weight: 600;
+  margin-bottom: 0;
+  position: relative;
+  bottom: -2px;
+  position: relative;
+  bottom: 5px;
+}
+
+
+input.texto{
+  width: 400px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #57879C;
+  margin-bottom: 30px;
+  margin-top: 0;
+  padding-bottom: 7px;
+  font-size: 1.2em;
+}
+input.texto:focus{
+  border-bottom: 2px solid #82C9E8;
+  transition: .3s;
+}
+
+input[type="submit"]{
+  background-color: #57879C;
+  color: #fff;
+  outline: none;
+  border: none;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+
+  margin-bottom: .7em;
+
+  cursor: pointer;
+}
+input[type="submit"]:hover{
+  background-color: #33505C;
+  transition: .2s;
+}
+
+div.cadastro{
+  width: 100%;
+}
+div.cadastro > p, div.cadastro > a{
+  display: inline-block;
+  vertical-align: middle;
+}
+div.cadastro > a {
+  text-align: right;
+}

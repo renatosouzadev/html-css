@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif ;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: gray;
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    height: 120px;
+    margin-bottom: 20px;
+}
+main{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 3em 6em;
+    max-width: 40em;
+    margin: auto;
+    box-shadow: 1px 1px 1px black;
+    border-radius: .2em;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 2emx;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+nav{
+    background-color: gray;
+    margin-bottom: 0px;
+    box-shadow: 1px 1px 1px black;
+}
+h1{
+    margin-bottom: 0.4em;
+}
+h2{
+    margin-bottom: 0.4em;
+}
+p{
+    font-size: 1.3em;
+    text-indent: 2em;
+    margin-bottom: .6em;
+    text-align: justify;
+}
+.autor > p{
+    background-color: lightgray;;
+}
+footer > a:hover{
+    color: aqua;
+}
+p > a{
+    text-decoration: none;
+    color: lightblue;
+}
+p > a:hover{
+    color: aqua;
+}
+nav > a{
+    text-decoration: none;
+    margin-inline: 50px;
+    margin-block: 10px;
+    background-color: gray;
+    padding: 10px 20px;
+    color: white;
+    border-radius: calc(1em + 5px);
+    display: inline-block;
+    font-weight: 600;
+}
+nav > a:hover{
+    text-decoration: underline 2px;
+    transition: .5s;
+}
+
+#rodape{
+    text-align: center;
+    font-size: .8em;
+    position: relative;
+    top: .4em;
+}

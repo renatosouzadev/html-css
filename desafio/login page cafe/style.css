@@ -1,0 +1,116 @@
+/*geral*/
+*{
+    margin: 0;
+    font-family: montserrat;
+}
+
+body{
+    background-image: url(imagens/cafe-1080.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/*cabechalho*/
+header{
+    background-image: linear-gradient(to bottom, #000000b2 60%, #00000000);
+    padding-bottom: 50px;
+}
+div.logo{
+    display: inline-block;
+    margin: 1em 2em;
+}
+div.logo > img{
+    width: 5em;
+    display: inline-block;
+    filter: brightness(100%);
+}
+div.logo > h1 {
+    font-size: 2.5em;
+    display: inline-block;
+    color: white;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+nav{
+    display: inline-block;
+    margin-right: 2em;
+    position: fixed;
+    right: 0;
+    top: 40px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+/*criar conta*/
+nav > a:hover{
+    border-bottom: 1px solid white;
+    transition: .5s;
+}
+div.criar-conta{
+    display: inline-block;
+    width: calc(40% );
+    max-width: 400px;
+}
+
+/*entrar na conta*/
+form{
+    display: inline-block;
+    width: calc(40% );
+    margin-left: 20px;
+    max-width: 700px;
+    position: absolute;
+    right: 10%;
+    width: fit-content;
+    
+}
+form > h1{
+    color: white;
+
+    margin-bottom: 30px;
+
+    text-align: center;
+}
+input.form{
+    width: 100%;
+    padding: 1em 1em;
+    border-radius: 2em;
+    border: none;
+    border: 1px solid white;
+    outline: none;
+    background: none;
+
+    margin-bottom: 1.2em;
+
+    font-size: 1em;
+    color: white;
+}
+label{
+    color: white;
+}
+label.form{
+    color: white;
+    position: relative;
+    left: 1.5em;
+}
+input[type="submit"]{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: black;
+    background-color: white;
+    border: none;
+    width: calc(100% + 2em);
+    height: 3em;
+    border-radius: 1.5em;
+}
+form > a{
+    color: rgb(0, 153, 255);
+    margin-right: 0;
+}
+
+
